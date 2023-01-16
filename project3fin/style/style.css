@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  h2 {
+    margin-bottom: 50px;
+    font-family: "Inter";
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 400;
+  }
+  
+  ul {
+    display: flex;
+  }
+  
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  header {
+    height: 70px;
+    background-color: #1abc9c;
+  }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  a:not(:last-child) {
+    margin-right: 20px;
+  }
+  .social-icon:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+  }
+  .about-img {
+    width: 50%;
+  }
+  .about-info {
+    padding: 0 65px;
+    width: 50%;
+  }
+  
+  .about-descr {
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .container_projects {
+    padding-top: 124px;
+    padding-bottom: 124px;
+    background-color: #dcffeb;
+  }
+  .projects_list {
+    justify-content: space-between;
+  }
+  
+  .projects_item {
+    display: flex;
+    padding: 25px;
+    background-image: url("../img/Rectangle\ 3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    width: 31.6%;
+    height: 376px;
+  }
+  .projects_item:not(:last-child) {
+    margin-right: 2.6%;
+  }
+  .box {
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+  
+    opacity: 0;
+    color: white;
+  }
+  .box:hover,
+  .box:focus {
+    opacity: 1;
+  }
+  .projects_mini-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Oswald";
+    font-style: normal;
+  }
+  .projects_mini-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans";
+    font-style: normal;
+  }
+  
+  footer {
+    padding: 50px 0;
+  }
+  
+  footer h2 {
+    padding: 0 70px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  
+  .footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 70px;
+  }
+  .footer-box {
+    text-align: center;
+    padding-top: 84px;
+    padding-bottom: 76px;
+  }
+  .fooler_black {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  
+  .footer_grey {
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: #999999;
+  }
+  .fooler_red {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #f7654a;
+  }
+  
